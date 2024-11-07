@@ -7,6 +7,7 @@ const SCENE = {
   pointIntensity: 20,
   baseRadius: 1,
   baseHeight: 0.25,
+  ROTATION_RATE: 0.25,
 };
 
 export { SCENE };

@@ -1,12 +1,13 @@
 import React from "react";
 import { Cylinder } from "@react-three/drei";
 import { SCENE } from "../state/Config";
+import { Watch } from "../models/Watch";
 
 const Product = () => {
   return (
-    <Cylinder args={[SCENE.baseRadius, SCENE.baseRadius, SCENE.baseHeight]}>
-      <meshStandardMaterial color={"lightgrey"} />
-    </Cylinder>
+    <>
+      <Watch rotation={[0, 0, 0]} />
+    </>
   );
 };
 
