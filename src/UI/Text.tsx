@@ -1,4 +1,3 @@
-import React from "react";
 import { Typography } from "@mui/material";
 
 const Text = () => {
@@ -8,7 +7,7 @@ const Text = () => {
         Your Company
       </Typography>
       <Typography variant="h5" color="white">
-        Promote your company message here
+        Get a stunning glimpse of your product here.
       </Typography>
     </div>
   );
